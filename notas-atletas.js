@@ -1,4 +1,9 @@
-
+function obterNomesAtletas(atletas) {
+  let nomesAtletas = atletas.map(function(atleta) {
+    return `Atleta: ${atleta.nome} `
+  })
+  return nomesAtletas
+}
 
 // dados utilizados para calcular a média
 
@@ -20,3 +25,6 @@ let atletas = [
    notas: [10, 10, 10, 9, 9.5]
  }
 ];
+
+console.log(obterNomesAtletas(atletas));
+
