@@ -1,3 +1,7 @@
+
+
+// dados utilizados para calcular a média
+
 let atletas = [
  {
    nome: "Cesar Abascal",
